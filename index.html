@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📊 My Dashboard</h1>
+
+    <div class="card">
+        <h3>Products</h3>
+        <p id="count">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Revenue</h3>
+        <p id="revenue">0</p>
+    </div>
+
+    <button onclick="addProduct()">Add Product</button>
+
+    <input id="search" placeholder="Search product...">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="table"></tbody>
+    </table>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
