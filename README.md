@@ -1,6 +1,9 @@
 # Smart Inventory Dashboard
 
 A responsive Smart Inventory Dashboard built using HTML, CSS, and JavaScript.
+## 🔗 Live Demo
+
+[View Live Demo](https://neveen2025.github.io/smart-inventory-dashboard/)
 
 ## 🚀 Features
 
